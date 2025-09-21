@@ -21,3 +21,10 @@ Testavimui naudota nuotrauka:
 Rezultatai:
 <img width="1996" height="160" alt="image" src="https://github.com/user-attachments/assets/56bdaaf4-f822-40f7-85d0-9dd6c2b8789a" />
 
+
+Kodas buvo pamodifikuotas, kad uzrasytu modelio isejimo duomenis ant visu nuotrauku esanciu duotu duomenu aplanke ir tada issaugotu nuotraukas kitame rezultatu aplanke:
+<img width="800" height="1380" alt="image" src="https://github.com/user-attachments/assets/ef90900c-4d16-4be5-9449-355879fab15b" />
+
+Duotu nuotrauku rezultatai ikelti i "rezultatai" aplanka.
+
+Taip pat prideti savi duomenys, paleistas kodas su savais duomenimis, taciau modelis neturejo pakankamai klasiu ir dave tik dvi klases visoms nuotraukoms, todel klasifikavimui panaudotas "google/vit-base-patch16-224" modelis ir rezultatai issaugoti "rezultatai_savi_duomenys" aplanke. Visgi ir sis modelis neturejo pakankamai klasiu.
